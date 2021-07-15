@@ -108,3 +108,45 @@ section-(2)-style
         padding-top: 5%;
         padding-left:20px;
     border-radius: 20px;}
+
+
+
+
+
+      /* -------------------
+      ----------
+      section(3) style -------------
+      ---------------*/
+
+
+  .messi{
+
+    display: flex; }
+
+    .highlight-copa{
+
+        width: 45%;
+        color: rgb(17, 16, 16);
+        margin-left: 130px;
+        padding-right: 50%;
+        margin-top: 10%;
+    }
+
+    .article{
+        width: 40%;
+        color: rgb(175, 172, 172);
+        font-weight: 500;
+        margin-left: 130px;
+        padding-right: 50%;
+   
+}
+  
+
+
+    .highlight img{
+        width: 80%;
+
+        margin-bottom: 25%;
+    }
+
+
