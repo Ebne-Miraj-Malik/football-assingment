@@ -1,7 +1,32 @@
+/*------------- media quary
+---------------------------- */
+
+    /* Mobile Divice */
+    
+       
+    [class*="col-"] {
+        width: 100%;
+      }
+      
+      @media only screen and (min-width: 768px) {
+        /* For mobile: */
+        
+      }
+        
+
+
+    
+
+
+
+
 /*---------
  body font style
 ------------ */
  
+main{
+    justify-content: center;
+}
 
 body
 {font-family: 'Poppins', sans-serif;
@@ -146,7 +171,39 @@ section-(2)-style
     .highlight img{
         width: 80%;
 
-        margin-bottom: 25%;
+        margin-bottom: 20%;
     }
 
 
+    /* ---------------------section(4)style
+    ----------------------------------------------- */
+
+        .football img{
+            width: 30%;
+            margin-left: 450px;
+            
+            margin-bottom: 30px;
+        }
+
+        /* --------------footer--------------
+        -------------------------------------- */
+        
+        .footer{display: flex;}
+    
+       
+        
+
+        .footer{
+         
+            
+            padding-left: 300px;
+        }
+         .footer img{
+             width: 40px;
+             margin-bottom: 10px;
+         }
+
+         .copyright p{
+
+            text-align: center;
+         }
