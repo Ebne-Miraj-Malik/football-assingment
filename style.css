@@ -7,10 +7,16 @@ body
 {font-family: 'Poppins', sans-serif;
 margin: 0;}
 
+
+/* ------------
+section-(1)-style
+--------------- */
 .copa{
    display: flex;
     background-color:rgb(44, 44, 192);
     margin-bottom: 6%;
+    padding-bottom: 10%;
+    
 }
 
 .copa-america{
@@ -38,9 +44,67 @@ background-color: rgb(235, 48, 126);
 font-weight: 700;
 color: white;
 margin-left: 20%;
+ 
+
 }
 
 .copa-america img{
     width: 90%;
+    padding-right: 50%;
+   margin-top: 10%;
 }
 
+/* --------------
+section-(2)-style
+----------------- */
+
+
+.player{
+
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        flex-direction: column;
+        
+       
+}
+
+.player{
+
+    margin-left: 75px;
+    text-align: center;
+}
+.blog{display: flex; 
+     
+    margin-bottom: 15%;
+
+}
+
+.name img{
+    width: 250px;
+    
+    align-items: center;
+   
+    
+}
+
+.name{
+    width:
+    100px;
+    
+    
+}
+.blog p{ color: rgb(114, 103, 103);
+
+    font-weight: 500;
+    width: 270px;
+    padding-right: 10px;
+}
+
+
+    .blog{ box-shadow: 10px 10px  50px gray;  
+        width: 64%;
+        margin-left: 5%;
+        
+        padding-top: 5%;
+        padding-left:20px;
+    border-radius: 20px;}
